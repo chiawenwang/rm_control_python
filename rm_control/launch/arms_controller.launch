@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- 启动 right_arm_control.launch 文件 -->
+    <include file="$(find rm_control)/launch/right_arm_control.launch" />
+
+    <!-- 启动 left_arm_control.launch 文件 -->
+    <include file="$(find rm_control)/launch/left_arm_control.launch" />
+
+</launch>
